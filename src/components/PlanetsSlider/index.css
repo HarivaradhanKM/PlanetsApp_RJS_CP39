@@ -1,0 +1,25 @@
+.planets-app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  min-height: 100vh;
+  padding: 40px;
+}
+
+.heading {
+  color: #05acff;
+  font: 700 normal 35px/1.2 Roboto;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .planets-app-container {
+    padding: 80px;
+  }
+
+  .heading {
+    font-size: 48px;
+    margin-bottom: 64px;
+  }
+}
